@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cotiza y contrata 100% online tu seguro automotriz con la compañía líder del mercado."
+  />
+  <meta name="author" content="Aceleración Labs">
+  <title>Cotizador BCI - Seguro de Auto</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+  <!-- Fixed header desktop -->
+  <nav id="navbar-desktop" class="navbar navbar-fixed-top">
+    <div class="row">
+
+
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <a class="navbar-brand" href="index.html"> 
+            <img src="assets/logo-bciseguros.png" alt="BCI Seguros"> 
+            </a> </div>
+
+      <div class="col-sm-4 col-md-4 col-lg-4 maintitle-desktop">
+        <h1>Seguro de Auto</h1>
+      </div>
+
+      <div class="col-sm-4 col-md-4 col-lg-4 notificaton-bar">
+        <div class="notice pull-right"><a class="navbar-brand callme" href="#"> 
+        <img src="assets/tellamamos.png" alt="Te llamamos"> 
+        </a>
+          <div>
+            <form>
+              <h3>¿Quieres que te contactemos a este u otro número?</h3>
+
+              <input type="text" id="phone" required data-validation-required-message="Por favor ingresa tu celular." placeholder="Celular"
+                autofocus>
+
+
+              <!-- For success/fail messages -->
+              <a href="seleccion.html" class="btn" role="button"><i class="fa fa-phone" aria-hidden="true"></i>
+ Quiero que me llamen</a>
+              <br/> <br/>
+              <p>Te contactaremos de lunes a viernes de 9:00 a 18:00 hrs.</p>
+              <p>También puedes llamar al siguiente número, de lunes a viernes en horario de oficina</p>
+              <p>Llamar +56 2 26799694</p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <!-- /.container -->
+  </nav>
+
+  <!-- Fixed header mobile -->
+  <nav id="navbar-mobile" class="navbar navbar-fixed-top">
+    <div class="container-fluid white-bg">
+      <!-- Brand and title get grouped for better mobile display -->
+      <div class="navbar-header col-xs-6 col-sm-6">
+        <a class="navbar-brand" href="#">
+<img src="assets/logo-bciseguros.png" alt="BCI Seguros">
+</a>
+      </div>
+      <div class="pull-right"> <a class="navbar-brand" href="#"> <img src="assets/tellamamos.png" alt="Te llamamos"> </a></div>
+      <div class="container-fluid">
+        <div class="maintitle row">
+          <h1>Seguro de Auto</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- /.container -->
+  </nav>
+
+
+  <!-- Header Carousel -->
+  <header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="fill" style="background-image:url('assets/1.jpg');"></div>
+        <div class="carousel-caption"> </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-image:url('assets/2.jpg');"></div>
+        <div class="carousel-caption"> </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+        <div class="carousel-caption"> </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="icon-prev"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="icon-next"></span> </a> </header>-->
+
+    <!-- Page Content -->
+    <div class="container page-content">
+
+      <div class="container">
+        <div class="breadcrumb row">
+          <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+            <div class="numberCircle">1</div>
+            <div>
+              <p> TUS DATOS</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+            <div class="numberCircle_off">2</div>
+            <div>
+              <p> PROPUESTA</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+            <div class="numberCircle_off">3</div>
+            <div>
+              <p> CONTRATACIÓN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="form-container">
+        <h3>Ingresa tu información para entregate una cotización</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <input type="text" class="form-control loading" id="name" required data-validation-required-message="Por favor ingresa tu nombre."
+                placeholder="Rut" autofocus>
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor ingresa tu Email."
+                placeholder="Email">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor ingresa tu teléfono."
+                placeholder="+569 Celular">
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <a href="seleccion.html" class="btn btn-primary next-button" role="button">Continuar</a>
+
+        </form>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container bc-footer">
+      <footer>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4">
+            <p>Paga seguro por internet</p>
+            <a href="#">  <img src="assets/webpay.png" alt="WebPay"> </a>
+            <a href="#">  <img src="assets/redcompra.png" alt="RedCompra"> </a>
+          </div>
+          <div id="socialmedia" class="col-sm-4 col-md-4 col-lg-4">
+            <p>Síguenos en</p>
+            <a href="#" class="socialmedia">  <img src="assets/sm1.png" alt="sm1"> </a>
+            <a href="#" class="socialmedia">  <img src="assets/sm2.png" alt="sm2"> </a>
+            <a href="#" class="socialmedia">  <img src="assets/sm3.png" alt="sm3"> </a>
+          </div>
+          <div id="appdownload" class="col-sm-4 col-md-4 col-lg-4">
+            <p>Descarga la App</p>
+            <a href="#" class="appdownload">  <img src="assets/googleplay.png" alt="Google Play"> </a>
+            <a href="#" class="appdownload">  <img src="assets/appstore.png" alt="App Store"> </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+      $('.carousel').carousel({
+        interval: 5000 //changes the speed
+      })
+    </script>
+</body>
+
+</html>
