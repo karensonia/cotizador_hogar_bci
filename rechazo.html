@@ -46,7 +46,7 @@
         </div>-->
           <div class="modal-body">
             <div style="width: 400px; margin: 50px auto">
-              <img src="assets/loading-cars-mobile.png">
+              <img src="assets/loading-cars.png">
               <div class="progress">
                 <div style="width: 100%">
                   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">.</div>
@@ -170,112 +170,23 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container page-content">
+  <div class="container page-content container-last">
 
-    <div class="container">
-      <div class="breadcrumb row">
-        <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
-          <div class="numberCircle">1</div>
-          <div>
-            <a href="index.html">
-              <p> TUS DATOS</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
-          <div class="numberCircle_off">2</div>
-          <div>
-            <a href="propuesta.html">
-              <p> PROPUESTA</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
-          <div class="numberCircle_off">3</div>
-          <div>
-            <a href="contratacion-nuevo.html">
-              <p> CONTRATACIÓN</p>
-            </a>
-          </div>
-        </div>
-      </div>
+
+    <div class="container confirmation center">
+      <img src="assets/warning.png" alt="sm1"> </a>
     </div>
-
-
-    <div class="container center">
-      <h3>Selecciona tu tipo de vehículo:</h3>
-
-
-      <div class="selectcontainer">
-
-        <div class=" nopadding selectcontainer-item">
-          <a href="seleccion-usado.html">
-            <div class="box-usado"></div>
-          </a>
-        </div>
-        <div class=" nopadding pull-right selectcontainer-item">
-          <a href="seleccion-nuevo.html">
-            <div class="box-nuevo"></div>
-          </a>
-        </div>
-      </div>
-    </div>
+    <h2 class="confirmation-h2">Lo sentimos hubo un error al procesar el pago, vuelve a intentarlo en unos minutos.</h2>
 
 
 
+    <!-- For success/fail messages -->
+    <a href="seleccion.html" class="btn btn-primary next-button" role="button" data-toggle="modal" data-target="#loadingnext"><i class="fa fa-refresh" aria-hidden="true"></i>
 
-    <div class="form-container">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="control-group form-group">
-          <div class="controls">
-            <input type="text" class="form-control loading" id="name" required data-validation-required-message="Por favor ingresa tu Patente."
-              autofocus> <span class="floating-label">Patente</span>
-
-            <p class="help-block"></p>
-          </div>
-        </div>
-        <div class="control-group form-group">
-          <div class="controls">
-            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor ingresa tu Marca.">
-            <span
-              class="floating-label">Marca</span>
-          </div>
-        </div>
+ Volver a intentar</a>
 
 
-        <div class="btn-group">
-          <div class="dropdown form-control-inline">
-            <button class="btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown">Modelo
-  <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">Opción 1</a></li>
-              <li><a href="#">Opción 2</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Opción 3</a></li>
-            </ul>
-          </div>
-          <div class="dropdown form-control-inline">
-            <button class="btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown">Año
-  <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">Opción 1</a></li>
-              <li><a href="#">Opción 2</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Opción 3</a></li>
-            </ul>
-          </div>
-        </div>
-
-
-        <p>Se solicitará factura del vehículo con una antiguedad no mayor a 48 hrs.</p>
-
-
-        <div id="success"></div>
-        <!-- For success/fail messages -->
-        <a href="seleccion.html" class="btn btn-primary next-button" role="button" data-toggle="modal" data-target="#loadingnext">Propuesta</a>
-
-      </form>
-    </div>
+  </div>
 
 
 

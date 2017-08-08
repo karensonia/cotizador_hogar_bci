@@ -48,6 +48,29 @@ header.carousel .fill {
     background-size: cover;
 }
 
+
+/* Perks Carousel */
+
+#carousel-perks {
+    background-size: 100% 20px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#carousel-perks .item,
+#carousel-perks .item.active,
+#carousel-perks .carousel-inner {
+    height: 100%;
+}
+
+#carousel-perks .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -56,11 +79,7 @@ header.carousel .fill {
 
 /* Pricing Page Styles */
 
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
+
 
 .price sup {
     top: -20px;
