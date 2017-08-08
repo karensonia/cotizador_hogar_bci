@@ -53,6 +53,8 @@ form {
     padding-top: 5vh;
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .bc-footer-item {
@@ -211,7 +213,7 @@ form {
 
 .breadcrumb {
     padding: 1px;
-    margin: 20px -20px;
+    margin: 40px -20px 20px -20px;
     background: none;
     align-content: center;
     display: flex;
@@ -223,6 +225,7 @@ form {
     font-size: 10px;
     line-height: 32px;
     padding-left: 38px;
+    text-transform: uppercase;
 }
 
 .nopadding {
@@ -367,7 +370,7 @@ hr {
 }
 
 .selectcontainer-item {
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .selectcontainer h3 {
@@ -418,58 +421,58 @@ hr {
     float: right;
 }
 
-.box-nuevo {
+.box-habitacional {
     border: 1.5px solid;
     border-radius: 5px;
     color: #0971CE;
     height: 90px;
     width: 160px;
-    background-image: url("../assets/back-nuevo-mobile.png");
+    background-image: url("../assets/back-habitacional-mobile.png");
     float: left;
 }
 
-.box-nuevo-inpage {
+.box-habitacional-inpage {
     border: 1.5px solid;
     border-radius: 5px;
     color: #0971CE;
     height: 90px;
     width: 160px;
     background-color: #0971CE;
-    background-image: url("../assets/back-nuevo-hover-mobile.png");
+    background-image: url("../assets/back-habitacional-hover-mobile.png");
     float: left;
 }
 
-.box-nuevo:hover {
+.box-habitacional:hover {
     border-radius: 5px;
     background-color: #0971CE;
-    background-image: url("../assets/back-nuevo-hover-mobile.png");
+    background-image: url("../assets/back-habitacional-hover-mobile.png");
 }
 
-.box-usado {
+.box-comercial {
     border: 1.5px solid;
     border-radius: 5px;
     color: #0971CE;
     height: 90px;
     width: 160px;
-    background-image: url("../assets/back-usado-mobile.png");
+    background-image: url("../assets/back-comercial-mobile.png");
     float: right;
 }
 
-.box-usado-inpage {
+.box-comercial-inpage {
     border: 1.5px solid;
     border-radius: 5px;
     color: #0971CE;
     height: 90px;
     width: 160px;
     background-color: #0971CE;
-    background-image: url("../assets/back-usado-hover-mobile.png");
+    background-image: url("../assets/back-comercial-hover-mobile.png");
     float: right;
 }
 
-.box-usado:hover {
+.box-comercial:hover {
     border-radius: 5px;
     background-color: #0971CE;
-    background-image: url("../assets/back-usado-hover-mobile.png");
+    background-image: url("../assets/back-comercial-hover-mobile.png");
 }
 
 .box-deducible {
@@ -621,8 +624,9 @@ textarea::-webkit-input-placeholder {
     }
     .breadcrumb {
         width: 50vw;
-        padding: 10px;
-        margin: 20px auto;
+        max-width: 500px;
+        padding: 10px 50px 10px 10px;
+        margin: 30px auto;
         background: none;
         align-content: center;
         display: flex;
@@ -633,56 +637,68 @@ textarea::-webkit-input-placeholder {
         padding: 8px 0px 8px 40px;
         line-height: 20px;
     }
-    .box-nuevo {
+    .box-habitacional {
         border: 1.5px solid;
         border-radius: 10px;
         color: #0971CE;
-        height: 102px;
+        height: 130px;
         width: 284px;
-        background-image: url("../assets/back-nuevo.png");
+        background-image: url("../assets/habitacional.png");
+        background-position: center;
+        background-repeat: no-repeat;
         float: left;
     }
-    .box-nuevo-inpage {
+    .box-habitacional-inpage {
         border: 1.5px solid;
         border-radius: 10px;
         color: #0971CE;
-        height: 102px;
+        height: 130px;
         width: 284px;
         background-color: #0971CE;
-        background-image: url("../assets/back-nuevo-hover.png");
+        background-image: url("../assets/habitacional-hover.png");
+        background-position: center;
+        background-repeat: no-repeat;
         float: left;
     }
-    .box-nuevo:hover {
+    .box-habitacional:hover {
         border-radius: 10px;
         background-color: #0971CE;
-        background-image: url("../assets/back-nuevo-hover.png");
+        background-image: url("../assets/habitacional-hover.png");
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    .box-usado {
+    .box-comercial {
         border: 1.5px solid;
         border-radius: 10px;
         color: #0971CE;
-        height: 102px;
+        height: 130px;
         width: 284px;
-        background-image: url("../assets/back-usado.png");
+        background-image: url("../assets/comercial.png");
+        background-position: center;
+        background-repeat: no-repeat;
         float: right;
     }
-    .box-usado-inpage {
+    .box-comercial-inpage {
         border: 1.5px solid;
         border-radius: 10px;
         color: #0971CE;
-        height: 102px;
+        height: 130px;
         width: 284px;
         background-color: #0971CE;
-        background-image: url("../assets/back-usado-hover.png");
+        background-image: url("../assets/back-comercial-hover.png");
+        background-position: center;
+        background-repeat: no-repeat;
         float: right;
     }
-    .box-usado:hover {
+    .box-comercial:hover {
         border-radius: 10px;
         background-color: #0971CE;
-        background-image: url("../assets/back-usado-hover.png");
+        background-image: url("../assets/back-comercial-hover.png");
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .selectcontainer {
-        margin: 10px auto 40px auto;
+        margin: 20px auto 40px auto;
         width: 55vw;
     }
     .selectcontainer-deducible {
