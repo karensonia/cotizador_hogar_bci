@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cotiza y contrata 100% online tu seguro automotriz con la compañía líder del mercado."
+    />
+    <meta name="author" content="Aceleración Labs">
+    <title>Cotizador BCI - Seguro Hogar</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Fixed header desktop -->
+    <nav id="navbar-desktop" class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <a class="navbar-brand" href="index.html"> 
+            <img src="assets/logo-bciseguros.png" alt="BCI Seguros"> 
+          </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4 maintitle-desktop">
+                    <h1>Seguro Hogar</h1>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4 notificaton-bar">
+                    <div class="notice pull-right">
+                        <a class="navbar-brand callme" href="#"> 
+              <img src="assets/tellamamos.png" alt="Te llamamos"> 
+            </a>
+                        <div>
+                            <form>
+                                <h3>¿Quieres que te contactemos a este u otro número?</h3>
+
+                                <input type="text" id="phone" required data-validation-required-message="Por favor ingresa tu celular." placeholder="Celular"
+                                    autofocus>
+
+                                <!-- For success/fail messages -->
+                                <a href="seleccion.html" class="btn" role="button"><i class="fa fa-phone" aria-hidden="true"></i> Quiero que me llamen</a>
+                                <br/>
+                                <br/>
+                                <p>Te contactaremos de lunes a viernes de 9:00 a 18:00 hrs.</p>
+                                <p>También puedes llamar al siguiente número, de lunes a viernes en horario de oficina</p>
+                                <p>Llamar +56 2 26799694</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Fixed header mobile -->
+    <nav id="navbar-mobile" class="navbar navbar-fixed-top">
+        <div class="container-fluid white-bg">
+            <!-- Brand and title get grouped for better mobile display -->
+            <div class="navbar-header col-xs-6 col-sm-6">
+                <a class="navbar-brand" href="#">
+          <img src="assets/logo-bciseguros.png" alt="BCI Seguros">
+        </a>
+            </div>
+            <div class="pull-right">
+                <a class="navbar-brand" href="contacto.html">
+          <img src="assets/tellamamos.png" alt="Te llamamos">
+        </a>
+            </div>
+            <div class="container-fluid maintitle">
+                <h1>Seguro Hogar</h1>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+    <!-- Page Content -->
+    <div class="container page-content">
+        <div class="container">
+            <div class="breadcrumb row">
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <div class="numberCircle">1</div>
+                    <div>
+                        <a href="index.html">
+                            <p> datos vivienda</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <div class="numberCircle_off">2</div>
+                    <div>
+                        <a href="propuesta.html">
+                            <p> propuesta</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <div class="numberCircle_off">3</div>
+                    <div>
+                        <a href="contratacion-nuevo.html">
+                            <p> contratación</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container center page-content">
+
+
+            <div class="form-container">
+
+                <form name="sentMessage" id="contactForm" novalidate>
+
+
+                    <div class="grey-container">
+                        <h2> <i class="fa fa-phone" aria-hidden="true"></i> Para asegurar este tipo de inmueble uno de nuestros
+                            ejecutivos se comunicará con usted.</h2>
+                    </div>
+                    <div class="center">
+                        <h3>Déjenos la siguiente información para ser contactado:</h3>
+                    </div>
+
+
+
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="text" class="form-control loading" id="name" required data-validation-required-message="Por favor ingresa tu nombre y apellido."
+                                autofocus> <span class="floating-label">Nombres Apellidos</span>
+
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor ingresa tu teléfono.">
+                            <span class="floating-label">+569 Celular</span>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor ingresa tu Email.">
+                            <span class="floating-label">Email (para enviar tu póliza)</span>
+                        </div>
+                    </div>
+
+
+
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <a href="antecedentes-acompanante.html" class="btn btn-primary next-button" role="button">Enviar</a>
+
+                </form>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container bc-footer">
+        <footer>
+            <div class="container container-footer">
+                <div class="bc-footer-item pagaseguro">
+                    <p>Paga seguro por internet</p>
+                    <a href="#">  <img src="assets/webpay.png" alt="WebPay"> </a>
+                    <a href="#">  <img src="assets/redcompra.png" alt="RedCompra"> </a>
+                </div>
+                <div id="socialmedia" class="bc-footer-item">
+                    <p>Síguenos en</p>
+                    <a href="#" class="socialmedia">  <img src="assets/sm1.png" alt="sm1"> </a>
+                    <a href="#" class="socialmedia">  <img src="assets/sm2.png" alt="sm2"> </a>
+                    <a href="#" class="socialmedia">  <img src="assets/sm3.png" alt="sm3"> </a>
+                </div>
+                <div id="appdownload" class="bc-footer-item">
+                    <p>Descarga la App</p>
+                    <a href="#" class="appdownload">  <img src="assets/googleplay.png" alt="Google Play"> </a>
+                    <a href="#" class="appdownload">  <img src="assets/appstore.png" alt="App Store"> </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+</body>
+
+</html>

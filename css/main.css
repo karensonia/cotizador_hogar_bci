@@ -53,7 +53,6 @@ form {
     padding-top: 5vh;
     display: flex;
     justify-content: center;
-    position: absolute;
     bottom: 0;
 }
 
@@ -90,6 +89,8 @@ form {
 
 .page-content {
     margin-bottom: 30px;
+    min-height: 60vh;
+    padding-top: 30px;
 }
 
 .white-bg {
@@ -316,6 +317,7 @@ hr {
 .next-button {
     background-color: #0071CE;
     width: 52vw;
+    max-width: 400px;
     height: 50px;
     vertical-align: middle;
     margin-top: 20px;
@@ -473,6 +475,59 @@ hr {
     border-radius: 5px;
     background-color: #0971CE;
     background-image: url("../assets/back-comercial-hover-mobile.png");
+}
+.box-casa {
+    border: 1.5px solid;
+    border-radius: 5px;
+    color: #0971CE;
+    height: 90px;
+    width: 160px;
+    background-image: url("../assets/back-casa-mobile.png");
+    float: left;
+}
+
+.box-casa-inpage {
+    border: 1.5px solid;
+    border-radius: 5px;
+    color: #0971CE;
+    height: 90px;
+    width: 160px;
+    background-color: #0971CE;
+    background-image: url("../assets/back-casa-mobile-hover.png");
+    float: left;
+}
+
+.box-casa:hover {
+    border-radius: 5px;
+    background-color: #0971CE;
+    background-image: url("../assets/back-casa-mobile-hover.png");
+}
+
+.box-departamento {
+    border: 1.5px solid;
+    border-radius: 5px;
+    color: #0971CE;
+    height: 90px;
+    width: 160px;
+    background-image: url("../assets/back-departamento-mobile.png");
+    float: right;
+}
+
+.box-departamento-inpage {
+    border: 1.5px solid;
+    border-radius: 5px;
+    color: #0971CE;
+    height: 90px;
+    width: 160px;
+    background-color: #0971CE;
+    background-image: url("../assets/back-departamento-mobile-hover.png");
+    float: right;
+}
+
+.box-departamento:hover {
+    border-radius: 5px;
+    background-color: #0971CE;
+    background-image: url("../assets/back-departamento-mobile-hover.png");
 }
 
 .box-deducible {
@@ -1189,4 +1244,40 @@ input:not(:focus):valid~.floating-label {
 .margin-checkbox {
     float: left; 
     margin-top: -15px;
+}
+
+/* Grey background content div */
+
+.grey-container {
+    width: 55vw;
+    background-color: #F2F2F2;
+    padding: 10px 5% 30px 5%;
+    justify-content: center;
+    margin: 0 auto 5vh auto;
+}
+.grey-container i {
+    font-size: 50px !important;
+    color: #4A4A4A;
+    padding: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.grey-container h1 {
+   font-size: 20px;
+   text-align: center;
+   padding-bottom: 20px;
+   font-weight: bold;
+}
+.grey-container h2 {
+   font-size: 16px;
+   text-align: center;
+}
+.grey-container h3 {
+   font-size: 14px;
+   text-align: center;
+   line-height: 20px;
+}
+.grey-container-price {
+   font-size: 30px;
+   font-weight: bold;
 }
