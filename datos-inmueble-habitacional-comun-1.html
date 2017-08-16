@@ -16,7 +16,6 @@
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/map.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -126,20 +125,35 @@
                 </div>
             </div>
         </div>
-        <div class="container center page-content">
-            <div class="center">
-                <h3>¿Dónde se encuentra la propiedad que desea asegurar?</h3><br>
-            </div>
-            <div id="map"></div>
-            <div style="margin-top:20px; text-align:center;">
-                <input id="pac-input" class="controls" type="text" placeholder="Dirección">
-                <div class="form-container">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <a href="#" class="btn btn-primary next-button" role="button" data-toggle="modal" data-target="#loadingnext">Continuar</a>
-                    </form>
-                </div>
-            </div>
+        <div class="container center">
+            <h3 style="margin-bottom:50px;">Requisitos de asegurabilidad</h3>
+
+            <div class="form-container">
+                <form name="sentMessage" id="contactForm" novalidate>
+          
+            <h5><i class="fa fa-check" aria-hidden="true"></i>Vivienda de uso exclusivo habitacional.</h5>
+            <h5><i class="fa fa-check" aria-hidden="true"></i>Vivienda que no permanezca deshabitada por más de 30 días corridos en el año.</h5>
+            <h5><i class="fa fa-check" aria-hidden="true"></i>Vivienda con chapas de seguridad en todas sus puertas.</h5>
+            <h5><i class="fa fa-check" aria-hidden="true"></i>Vivienda tiene menos de 50 años de antigüedad.</h5>
+            <br>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="" style="float: left; margin-top: -15px;">Declaro y acepto conocer y cumplir los requisitos mencionados.</label>
+                  </div>
+          
+                  <div id="success"></div>
+                  <!-- For success/fail messages -->
+                  <a href="#" class="btn btn-primary next-button" role="button" data-toggle="modal" data-target="#loadingnext">Continuar</a>
+          
+                </form>
+              </div>
+          
+           
+
+
         </div>
+
+
+
     </div>
 
     <!-- Footer -->
@@ -177,9 +191,6 @@
             interval: 5000 //changes the speed
         })
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-DUp6zlxLpNMNcZ5CMtGt_dS0FO10R6k&libraries=places&callback=initAutocomplete"
-        async defer></script>
-    <script src="js/map.js"></script>
 </body>
 
 </html>

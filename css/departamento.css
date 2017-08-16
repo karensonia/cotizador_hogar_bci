@@ -14,13 +14,15 @@
  #timeline {
    margin-top: 200px;
    margin-bottom: 50px;
-   padding: 0;
-   border-top: 2px solid #979797;
+   padding-left: 200px;
    list-style: none;
-   display: flex;
- }
+   background-image: url(../assets/departamento-selector.png);
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: top;
+  }
  #timeline li {
-   padding-top: 15px;
+   padding-top: 50px;
    position: relative;
    flex: 1;
    transition: all 0.4s ease-in-out;
@@ -35,14 +37,15 @@
  
  label {
    max-width: 10px;
-   min-height: 20px;
+   min-height: 30px;
    margin: 0 auto;
-   padding: 5px 15px;
+   padding: 5px 10px;
    border-width: 2px;
    background-color: #00953A;
    position: absolute;
-   left: -6px;
+   left: 65px;
    right: 0;
+   top: -50px;
    cursor: pointer;
    opacity: 0;
    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
@@ -57,16 +60,19 @@
    pointer-events: none;
  }
  label:before {
-   border-bottom-color: #00953A;
+   border-right-color: #00953A;
    border-width: 15px;
-   left: 50%;
-   margin-left: -15px;
+   bottom: 50%;
+   margin-bottom: -15px;
+   margin-left: -40px;
+   
  }
  label:after {
-   border-bottom-color: #00953A;
-   border-width: 12px;
-   left: 50%;
-   margin-left: -12px;
+   border-right-color: #00953A;
+   border-width: 15px;
+   bottom: 50%;
+   margin-bottom: -15px;
+   margin-left: -40px;
  }
  label span {
    text-align: center;
@@ -84,6 +90,7 @@
    color: #9B9B9B;
    position: absolute;
    top: -40px;
+   left: -40px;
    display: block;
  }
  
@@ -95,7 +102,7 @@
    border: 5px solid #979797;
    border-radius: 50%;
    position: absolute;
-   top: -6px;
+   top: -35px;
    left: 50%;
  }
  
