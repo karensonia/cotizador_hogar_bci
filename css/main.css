@@ -49,7 +49,7 @@ form {
     background-color: #4F4E4E;
     margin: 30px auto 0 auto;
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
     padding-top: 5vh;
     display: flex;
     justify-content: center;
@@ -234,6 +234,11 @@ form {
     line-height: 32px;
     padding-left: 38px;
     text-transform: uppercase;
+}
+.breadcrumb img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .nopadding {
@@ -1357,6 +1362,36 @@ input:not(:focus):valid~.floating-label {
    line-height: 20px;
 }
 .grey-container-price {
+   font-size: 30px;
+   font-weight: bold;
+}
+.plan-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.plan-container h1 {
+   font-size: 16px;
+   text-align: center;
+   padding-bottom: 20px;
+   font-weight: bold;
+}
+.plan-container h2 {
+   font-size: 18px;
+   text-align: center;
+}
+.plan-container h3 {
+   font-size: 18px;
+   text-align: right;
+   line-height: 20px;
+}
+.plan-container h4 {
+   font-size: 18px;
+   text-align: center;
+   line-height: 20px;
+}
+.plan-container-price {
    font-size: 30px;
    font-weight: bold;
 }

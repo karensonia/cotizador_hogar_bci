@@ -126,35 +126,71 @@
             </div>
         </div>
         <div class="container center">
-            <h3>Selecciona tu tipo de vehículo:</h3>
-      
-      
-            <div class="selectcontainer">
-      
-              <div class=" nopadding selectcontainer-item">
-                <a href="#">
-                  <div class="box-item">Incendio</div>
-                </a>
-              </div>
-              <div class=" nopadding pull-right selectcontainer-item">
-                <a href="#">
-                  <div class="box-item-inpage">Incendio + Sismo</div>
-                </a>
-              </div>
-              <div class=" nopadding selectcontainer-item">
-                <a href="#">
-                  <div class="box-item">Incendio + Robo</div>
-                </a>
-              </div>
-              <div class=" nopadding pull-right selectcontainer-item">
-                <a href="#">
-                  <div class="box-item">Incendio + Robo + Sismo</div>
-                </a>
-              </div>
-            </div>
-          </div>
-      
+            <h3>Selecciona la cobertura que deseas contratar:</h3>
 
+
+            <div class="selectcontainer">
+
+                <div class=" nopadding selectcontainer-item">
+                    <a href="#">
+                        <div class="box-item">Incendio</div>
+                    </a>
+                </div>
+                <div class=" nopadding pull-right selectcontainer-item">
+                    <a href="#">
+                        <div class="box-item-inpage">Incendio + Sismo</div>
+                    </a>
+                </div>
+                <div class=" nopadding selectcontainer-item">
+                    <a href="#">
+                        <div class="box-item">Incendio + Robo</div>
+                    </a>
+                </div>
+                <div class=" nopadding pull-right selectcontainer-item">
+                    <a href="#">
+                        <div class="box-item">Incendio + Robo + Sismo</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="plan-container">
+
+            <h1>Protege tu hogar desde:</h1>
+            <h2><strong style="font-size:40px;">$4.530</strong>/Mensual</h2>
+            <h4>0.17 UF /Mensual</h3>
+                <br>
+                <hr align="center" style="width:50vw; color:grey; margin: 10px auto;">
+        </div>
+
+        <div class="container">
+            <h3>
+                Principales asistencias
+                <a href="#" data-toggle="tooltip" title="Descripción de deducible">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+          </a>
+            </h3>
+            <div class="breadcrumb row">
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <img src="assets/asistencia1.png" alt="ELECTRICIDAD">
+                    <div>
+                        <p> ELECTRICIDAD</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <img src="assets/asistencia2.png" alt="CERRAJERÍA">
+                    <div>
+                        <p> CERRAJERÍA</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 nopadding">
+                    <img src="assets/asistencia3.png" alt="GASFITERÍA">
+                    <div>
+                        <p> GASFITERÍA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
@@ -193,6 +229,11 @@
         $('.carousel').carousel({
             interval: 5000 //changes the speed
         })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
 </body>
 
